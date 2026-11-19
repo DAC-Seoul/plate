@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>주차장 차량 조회</title>
+
+<!-- 파비콘 -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<!-- 아이폰: 홈 화면에 추가할 때 쓰는 아이콘 -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="주차장 조회">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- 안드로이드: 앱 설치용 설정 -->
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#2b3340">
+
+<style>
+  html, body { height: 100%; margin: 0; background: #2b3340; }
+  iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; background: #eceff3; }
+</style>
+</head>
+<body>
+<iframe id="app" title="주차장 차량 조회" allow="clipboard-write"></iframe>
+<script>
+  // 이 페이지 주소의 ?page=my 등을 웹앱 주소에 그대로 넘깁니다.
+  var EXEC = "https://script.google.com/macros/s/AKfycby6A_6MO4oH4TEXeMVI5L278IYWAUbkGeOJ5a9SJ_YYAvSG-tZMzba3zby14wv6VGuoAA/exec";
+  document.getElementById('app').src = EXEC + location.search;
+</script>
+<noscript><a href="https://script.google.com/macros/s/AKfycby6A_6MO4oH4TEXeMVI5L278IYWAUbkGeOJ5a9SJ_YYAvSG-tZMzba3zby14wv6VGuoAA/exec">주차장 차량 조회 열기</a></noscript>
+</body>
+</html>
