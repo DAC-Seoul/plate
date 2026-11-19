@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" rx="230" fill="#03C75A"/>
+  <g transform="translate(-25,-40)">
+  <!-- car (front view) -->
+  <g transform="translate(30,105) scale(0.88)">
+    <g fill="#FFFFFF">
+      <path d="M230 450 L285 265 Q298 225 340 225 L540 225 Q582 225 595 265 L650 450 Z"/>
+      <rect x="130" y="430" width="620" height="250" rx="70"/>
+      <rect x="175" y="650" width="120" height="110" rx="34"/>
+      <rect x="585" y="650" width="120" height="110" rx="34"/>
+      <rect x="90" y="395" width="90" height="50" rx="25"/>
+      <rect x="700" y="395" width="90" height="50" rx="25"/>
+    </g>
+    <g fill="#03C75A">
+      <path d="M285 420 L325 285 Q332 265 352 265 L528 265 Q548 265 555 285 L595 420 Z"/>
+      <circle cx="240" cy="540" r="44"/>
+      <circle cx="640" cy="540" r="44"/>
+      <rect x="350" y="595" width="180" height="30" rx="15"/>
+    </g>
+  </g>
+  <!-- cutout gap around magnifier -->
+  <circle cx="690" cy="680" r="176" fill="#03C75A"/>
+  <line x1="790" y1="780" x2="866" y2="856" stroke="#03C75A" stroke-width="100" stroke-linecap="round"/>
+  <!-- magnifier (white outline) -->
+  <circle cx="690" cy="680" r="128" fill="none" stroke="#FFFFFF" stroke-width="44"/>
+  <line x1="790" y1="780" x2="866" y2="856" stroke="#FFFFFF" stroke-width="56" stroke-linecap="round"/>
+  </g>
+</svg>
