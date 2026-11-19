@@ -1,7 +1,7 @@
 {
-  "name": "주차장 차량 조회",
+  "name": "차량 조회",
   "short_name": "차량 조회",
-  "description": "주차장 차량 조회와 월정기주차 확인",
+  "description": "차량 조회와 월정기주차 확인",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
